@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/intro_item_name"
+        android:lineSpacingExtra="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/intro_item_intent1"
+        android:lineSpacingExtra="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/intro_item_intent2"
+        android:lineSpacingExtra="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="1dp"
+        android:background="#000"/>
+</LinearLayout>
+
+

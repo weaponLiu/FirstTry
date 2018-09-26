@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false"
+        android:drawable="@drawable/fours"/>
+    <item android:state_focused="true"
+        android:drawable="@drawable/foura"/>
+    <item android:state_pressed="true"
+        android:drawable="@drawable/foura"/>
+    <item android:drawable="@drawable/fours"/>
+</selector>
